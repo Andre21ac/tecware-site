@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecWare</title>
+    <script src="https://kit.fontawesome.com/1e592b5726.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="busca.css">
+    <style>
+        a {
+            text-decoration: none;
+        }
+      </style>
+</head>
+<body class="bg-primary">
+    <header class="center">
+        <img src="imagens/tecware-logo.png" alt="logo-empresa">
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li class="dropdown">
+                <a href="servicos.html" class="dropbtn">Nossos Serviços</a>
+                <div class="dropdown-content">
+                    <a href="#">Desenvolvimento de Software</a>
+                    <a href="#">Consultoria</a>
+                    <a href="#">Suporte Técnico</a>
+                </div>
+            </li>
+            <li><a href="contatos.html">Contato</a></li>
+            <form action="#" method="post">
+                <input type="text" name="search" id="search" placeholder="Faça sua Busca" required>
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <button onclick="toggle()"><img class="icon" src="https://www.pngrepo.com/png/222869/180/moon.png" alt=""></button>
+        </ul>
+    </nav>
+    
+    <main>
+        <div>
+            <h2>Bem vindo a TecWare Solutuions</h2>
+            <p>Somos especializados em soluções de tecnologia para empresas de todos os tamanhos.</p>
+            <br>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/N6h4FIr3-Sk?si=Fxp0i7U5x8Cj91BL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <br>
+        <div class="imagens">
+            <figure>
+                <img src="https://investidorsardinha.r7.com/wp-content/uploads/2020/08/empresas-de-tecnologia-da-bolsa-4.jpg" alt="" class="container">
+            </figure>
+            <figcaption>
+                <p>Temos conexões por todo o mundo.</p>
+            </figcaption>
+            
+            <figure>
+                <img src="https://cdn.e-konomista.pt/uploads/2019/03/empresas-de-tecnologia-programador.jpg" alt="" class="container">
+            </figure>
+            <figcaption>
+                <p>Nossos profissionais são qualificados.</p>
+            <figure>
+                <img src="https://www.lafscontabilidade.com.br/blog/wp-content/uploads/2018/05/199001-gestao-empresarial-como-funcionam-os-setores-de-uma-pequena-empresa.jpg" alt="" class="container">
+            </figure>
+            <figcaption>
+                <p>Prezamos pela qualidade do projeto.</p>
+            </figcaption>
+        </div>
+        <button class="glow-on-hover" type="button">Saiba Mais</button>
+    </main>
+
+    <footer>
+        <div>
+            <h2>Entre em contato conosco:</h2>
+            <p>Telefone: (12) 4002-8922</p>
+            <p>Email: <a style="color: rgb(56, 56, 250);" href="mailto:contato@tecwaresolutions.com">contato@tecwaresolutions.com</a></p>
+        </div>
+        <p>Copyright © 2023 – Todos os Direitos Reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

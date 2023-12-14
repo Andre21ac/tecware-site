@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <style>
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body class="bg-primary">
+    <header class="center">
+        <img src="imagens/tecware-logo.png" alt="logo">
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li class="dropdown">
+                <a href="servicos.html" class="dropbtn">Nossos Servicos</a>
+                <div class="dropdown-content">
+                    <a href="#">Desenvolvimento de Software</a>
+                    <a href="#">Consultoria</a>
+                    <a href="#">Suporte Técnico</a>
+                </div>
+            </li>
+            <li><a href="contatos.html">Contato</a></li>
+            <button onclick="toggle()"><img class="icon" src="https://www.pngrepo.com/png/222869/180/moon.png" alt=""></button>
+        </ul>
+    </nav>
+
+    <form action="./home.html">
+        <p>Nome</p>
+        <input type="text">
+        <p>Sobrenome</p>
+        <input type="text">
+        <p>E-mail</p>
+        <input type="email" name="" id="email">
+        <p>Cadastre sua senha</p>
+        <input type="password"><br>
+        <p>Telefone</p>
+        <input type="tel" name="telefone" id="telefone">
+        <p>Cidade</p>
+        <input type="text" name="cidade" id="cidade">
+        <p>Estado</p>
+        <select name="estado" id="estado">
+            <option value="PE">Pernambuco</option>
+            <option value="AL">Alagoas</option>
+        </select>
+            <p>Sexo</p>
+            <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+            <label><input type="radio" name="genero" value="feminino"> Feminino</label>
+        <p>Dê sua sugestão</p>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+
+    <footer>
+        <div>
+            <h2>Entre em contato conosco:</h2>
+            <p>Telefone: (12) 4002-8922</p>
+            <p>Email: <a style="color: rgb(56, 56, 250);" href="mailto:contato@tecwaresolutions.com">contato@tecwaresolutions.com</a></p>
+        </div>
+        <p>Copyright © 2023 – Todos os Direitos Reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
